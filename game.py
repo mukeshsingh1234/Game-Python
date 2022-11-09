@@ -24,6 +24,8 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+
+import random
 choice = input("What do your choose? Type 0 for Rock, 1 for Paper or 2 for Scissors\n")
 game_list = [rock, paper, scissors]
 choice = int(choice)
